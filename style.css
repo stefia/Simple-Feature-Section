@@ -48,11 +48,11 @@ body {
 }
 
 .feedbacks__card {
-    width: 360px;
+    width: 330px;
     padding: 30px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
     background-color: #212936;
     border-radius: 20px;
 }
@@ -64,7 +64,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FCEED8;
 }
 .feedbacks__cards-img {
     border-radius: 20px;
@@ -72,4 +71,14 @@ body {
 
 .feedbacks__cards-description {
     max-width: 230px;
+}
+
+.icon-yellow {
+    background-color: #FCEED8;
+}
+.icon-blue {
+    background-color: #DEE9FC;
+}
+.icon-red {
+    background-color: #FBE5E6;
 }
