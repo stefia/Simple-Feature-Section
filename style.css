@@ -44,11 +44,13 @@ body {
 .feedbacks__cards {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     gap: 60px;
 }
 
 .feedbacks__card {
     width: 330px;
+    height: auto;
     padding: 30px;
     display: flex;
     flex-direction: column;
