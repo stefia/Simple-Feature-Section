@@ -28,6 +28,16 @@ body {
     color: #9DA3AE;
 }
 
+.icon-yellow {
+    background-color: #FCEED8;
+}
+.icon-blue {
+    background-color: #DEE9FC;
+}
+.icon-red {
+    background-color: #FBE5E6;
+}
+
 .feedbacks__title {
     max-width: 400px;
     margin: 0 auto;
@@ -75,12 +85,10 @@ body {
     max-width: 230px;
 }
 
-.icon-yellow {
-    background-color: #FCEED8;
-}
-.icon-blue {
-    background-color: #DEE9FC;
-}
-.icon-red {
-    background-color: #FBE5E6;
+@media (max-width: 640px) {
+    .feedbacks__cards {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
 }
