@@ -32,12 +32,12 @@ body {
     max-width: 400px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 48px;
 }
 
 .feedbacks_description {
     max-width: 400px;
-    margin: 10px auto 40px auto;
+    margin: 16px auto 48px auto;
     text-align: center;
 }
 
@@ -45,13 +45,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 60px;
+    gap: 48px;
 }
 
 .feedbacks__card {
-    width: 300px;
+    max-width: 316px;
     height: auto;
-    padding: 20px;
+    padding: 24px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -60,8 +60,8 @@ body {
 }
 
 .feedbacks__cards-icon {
-    width: 50px;
-    height: 50px;
+    width: 52px;
+    height: 52px;
     border-radius: 50%;
     display: flex;
     align-items: center;
