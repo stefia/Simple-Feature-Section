@@ -26,6 +26,9 @@ body {
 .text--body {
     font-size: 16px;
     font-weight: 400;
+}
+
+.text-gray {
     color: #9DA3AE;
 }
 
